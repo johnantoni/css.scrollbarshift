@@ -1,6 +1,11 @@
 /** scrollbar shift fix **/
 html {
+
+    /* option 1 - force page to be bigger than it is to show a scrollbar */
     height: 100%;
     margin-bottom: 0.01em;
+
+    /* option 2 - always show a scrollbar */
     overflow-y: scroll;
+
 }
