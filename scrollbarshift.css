@@ -1,0 +1,6 @@
+/** scrollbar shift fix **/
+html {
+    height: 100%;
+    margin-bottom: 0.01em;
+    overflow-y: scroll;
+}
